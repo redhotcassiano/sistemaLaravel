@@ -16,3 +16,12 @@ Route::get('/', function () {
 });
 
 //Rotas para a API do sistema de produtos;
+Route::group(['prefix' => 'v1'], function(){
+	//Tours
+	Route::get('produtos', 'ProdutosController@index');
+	Route::get('produtos/{id}', 'ProdutosController@show');
+	Route::post('produtos', 'ProdutosController@create');
+	Route::put('produtos/{id}', 'ProdutosController@update');
+	Route::delete('produtos/{id}', 'ProdutosController@destroy');
+  
+});
