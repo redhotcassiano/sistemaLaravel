@@ -11,18 +11,25 @@ class TableProdutos extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        //
-    }
+     public function up()
+     {
+         Schema::create('Produtos', function (Blueprint $table) {
+             $table->increments('id');
+             $table->string('nome')->uniqid();
+             $table->string('descricao');
+             $table->string('status');
+             $table->decimal('preco');             
+             $table->timestamps();
+         });
+     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
+     /**
+      * Reverse the migrations.
+      *
+      * @return void
+      */
+     public function down()
+     {
+          Schema::dropIfExists('Produtos');
+     }
 }
