@@ -13,6 +13,16 @@ class ProdutosController extends Controller
       $this->request = $request;
   }
 
+  public function index(){
+    $result = $this->produtos->allProdutos();
+
+    if(!$result){
+      return response(['response' => 'Não foi possivel encontrar os produtos!'], 400);
+    }
+
+    return response($result, 200);
+  }
+
   public function create()
   {
       //$data = $this->request->all();
@@ -39,7 +49,7 @@ class ProdutosController extends Controller
 
   public function update(Request $request, $id)
   {
-    
+
     $result = $this->produtos->updateProduto($id);
 
     if(!$result){
