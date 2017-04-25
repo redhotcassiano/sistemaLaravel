@@ -1,0 +1,116 @@
+2017/04/25 17:42:39 [error] 4396#4396: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('er...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4
+2017/04/25 17:44:18 [error] 4393#4393: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('er...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4
+2017/04/25 17:44:21 [error] 4393#4393: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('er...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4
+2017/04/25 17:45:02 [error] 4393#4393: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('er...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/sistemaCrud.web/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4
+2017/04/25 17:46:27 [error] 4393#4393: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /v...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illumin
+2017/04/25 17:46:28 [error] 4393#4393: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /v...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illumin
+2017/04/25 17:46:58 [error] 4393#4393: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /v...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illumin
+2017/04/25 17:47:00 [error] 4393#4393: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#5 /v...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/var/www/sistemaCrud.web/storage/logs" and its not buildable: Permission denied in /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:171
+Stack trace:
+#0 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /var/www/sistemaCrud.web/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /var/www/sistemaCrud.web/vendor/laravel/framework/src/Illumin
