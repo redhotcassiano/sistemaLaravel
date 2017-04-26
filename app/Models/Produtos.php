@@ -57,8 +57,14 @@ class Produtos extends Model
 
   }
 
-  public function delete($id){
-    
+  public function destroyProduto($id){
+
+    if(self::where('id',$id)->delete()){
+      $mens = "Sucesso!";
+      return $mens;
+    }
+
+    return false;
   }
 
 

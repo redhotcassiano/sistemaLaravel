@@ -14,6 +14,7 @@ class ProdutosController extends Controller
   }
 
   public function index(){
+
     $result = $this->produtos->allProdutos();
 
     if(!$result){
@@ -62,7 +63,14 @@ class ProdutosController extends Controller
 
   public function destroy($id)
   {
-      //
+      $result = $this->produtos->destroyProduto($id);
+
+      if(!$result){
+        return response(['response' => 'Não foi possivel excluir o produto!'], 400);
+      }
+
+      return response($result, 200);
+
   }
 
 }

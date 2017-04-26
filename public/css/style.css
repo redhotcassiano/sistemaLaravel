@@ -3,3 +3,17 @@
   margin: 0 auto !important;
   margin-top: 100px !important;
 }
+
+.glyphicon-zoom-in{
+  color: yellow !important;
+  font-size: 14px;
+}
+
+.glyphicon-remove{
+  color: red !important;
+  font-size: 14px;
+}
+
+.glyphicon-pencil{
+  font-size: 14px;
+}
