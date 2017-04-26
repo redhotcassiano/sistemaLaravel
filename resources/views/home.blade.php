@@ -143,7 +143,7 @@
                             <h4><span ng-show="visulProduto.status == 1">Ativado</span><span ng-show="visulProduto.status == 2">Desativado</span></h4>
                           </div>
                           <div class="modal-footer" ng-show="deletarProduto == 'true' ">
-                            <button type="button" class="btn btn-primary" ng-click="destroyProduto(visulProduto.id)">Excluir Produto</button>@{{visulProduto}}
+                            <button type="button" class="btn btn-primary" ng-click="destroyProduto(visulProduto.id)">Excluir Produto</button>
 
                           </div>
 
@@ -162,6 +162,10 @@
 
       </div>
 
+    </div>
+
+    <div class="footer">      
+      <a href="https://github.com/redhotcassiano/sistemaLaravel">GITHUB</a>
     </div>
 
     <!-- Scripts e arquivos JS -->
